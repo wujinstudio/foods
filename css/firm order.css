@@ -1,0 +1,247 @@
+/*
+* @Author: 武锦
+* @Date:   2018-08-14 10:02:26
+* @Last Modified by:   武锦
+* @Last Modified time: 2018-08-15 10:59:55
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	width: 7.5rem;
+    height: 6.28rem;
+    background: #ff6600;
+    padding: 0 0.24rem;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    position: relative;
+}
+header .top{
+	width: 100%;
+	height: 0.6rem;
+	padding-top: 0.2rem;
+}
+header .top img{
+	height: 0.6rem;
+	width: 0.34rem;
+	display: block;
+	float: left;
+}
+header p{
+	font-size: 0.28rem;
+	padding-top: 0.4rem;
+	float: left;
+	color: #fff;
+}
+header .conprimary{
+	width: 0.7rem;
+	height: 0.3rem;
+	border: 1px solid #fff;
+	border-radius: 0.3rem;
+	font-size: 0.16rem;
+	float: left;
+	text-align: center;
+	margin-top: 0.46rem;
+	line-height: 0.3rem;
+	color: #fff;
+}
+header .place{
+	padding-top: 0.1rem;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	margin-left: 0.3rem;
+}
+header .name{
+	padding-top: 0.1rem;
+	margin-left: 0.3rem;
+}
+header .time{
+	margin-top:2rem; 
+	    background-color: #fff;
+}
+header .time-one{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+}
+.time-one h5{
+	font-size: 0.34rem;
+}
+.time-one .timen{
+	font-size: 0.2rem;
+	color: #ff6600;
+}
+.time-one .time-last{
+	font-size: 0.3rem;
+	color: #ff6600;
+	padding-top: 0.1rem;
+}
+header .time-two{
+	background-color: #fff;
+	width: 100%;
+	height: 1rem;
+}
+.time-two h5{
+	font-size: 0.34rem;
+	margin: 0;
+}
+.time-two .way{
+	font-size: 0.3rem;
+	color: #ff6600;
+}
+header .time-two{
+	display: flex;
+    justify-content: space-between;
+    padding-top: 0.18rem;
+}
+.time-two .way{
+	padding-left: 4.2rem;
+}
+.time-two img{
+	width: 0.1rem;
+	height: 0.24rem;
+	display: block;
+	margin-top: 0.1rem;
+}
+main{
+	width:100%;
+	padding: 0 0.24rem;
+	height: 5.2rem;
+	position: fixed;
+	top: 5.6rem;
+}
+main ul{
+	background-color: #fff;
+	padding: 0 0.24rem;
+}
+main ul .point{
+	width: 100%;
+	height: 0.08rem;
+	padding-top: 0.2rem;
+}
+main ul .point img{
+	width: 100%;
+	display: block;
+}
+li h6{
+	font-size: 0.36rem;
+}
+main .cakel{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	justify-content: center;
+}
+.cakel .cake{
+	width: 1.1rem;
+	height: 1.4rem;
+	float: left;
+	padding-right: 1.4rem;
+}
+.cake img{
+	width: 1.1rem;
+	height: 1.4rem;
+}
+.cakel .descrition{
+	font-size: 0.3rem;
+	width: 2rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+}
+.cakel .pic{
+	width: 0.2rem;
+	height: 0.2rem;
+}
+.cakel .pic img{
+	width: 0.2rem;
+	height: 0.2rem;
+	display: block;
+}
+.cakel .one{
+	font-size: 0.2rem;
+}
+.cakel .mon{
+	font-size: 0.2rem;
+	margin-left: 2rem;
+}
+main .list{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0.24rem;
+	padding-bottom: 0.24rem;
+/* 	justify-content: center;
+	align-items: center; */
+}
+.list h1{
+	font-size: 0.3rem;
+	color: #333;
+}
+.list p{
+	font-size: 0.3rem;
+	color: #4c4c4c;
+	padding-left: 4rem;
+}
+.list img{
+	width: 0.1rem;
+	height: 0.24rem;
+	display: block;
+	margin-top: 0.1rem;
+}
+.list .rmb{
+	color: #ff6600;
+	font-size: 0.3rem;
+    padding-left: 4rem;
+    font-weight: bold;
+}
+.list .rmba{
+	color: #4c4c4c;
+	font-size: 0.3rem;
+    padding-left: 3.4rem;
+}
+.list .rmbv{
+	color: #4c4c4c;
+	font-size: 0.3rem;
+    padding-left: 4rem;
+}
+footer .box{
+	width: 100%;
+	height: 0.98rem;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0.18rem;
+	box-shadow: -0.1rem -0.04rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+.box h2{
+	font-size: 0.36rem;
+	color: #ff6600;
+}
+.box .confirm{
+	border-radius: 0.3rem;
+	background-color: #ff6600;
+	width: 1.6rem;
+	height: 0.6rem;
+	color: #fff;
+	font-size: 0.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

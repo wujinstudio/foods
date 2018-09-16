@@ -1,0 +1,129 @@
+/*
+* @Author: 武锦
+* @Date:   2018-08-16 15:32:01
+* @Last Modified by:   武锦
+* @Last Modified time: 2018-08-16 19:23:00
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style:normal;
+}
+body{
+	background-image: url('../img/signin.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+header .orangebox{
+	width: 1.3rem;
+	height: 0.58rem;
+	margin-left: 6rem;
+	margin-top: 0.3rem;
+	background-color: #ff6600;
+	color: #Fff;
+	border-radius: 0.3rem;
+	font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.58rem;
+    overflow: hidden;
+}
+header .box{
+	width: 5.5rem;
+	height: 4.74rem;
+	margin: 0 auto;
+	border-radius: 0.2rem;
+	background: #fff;	
+	margin-top: 4.6rem;
+}
+header .uersname{
+	font-size: 0.24rem;
+	color: #ff6600;
+	padding-top: 0.2rem;
+	margin-left: 0.54rem;
+}
+.ko i{
+	position: absolute;
+	top: 6.3rem;
+	left: 1.5rem;
+	color: #ff944c;
+}
+.box input{
+   	position: absolute;
+	top: 6.3rem;
+	left: 2rem;
+	border: none;
+	border-bottom: 0.04rem solid #ff6600;
+	width: 2.5rem;
+}
+.box img{
+   margin-left: 0.44rem; 
+}
+.box .password{
+	font-size: 0.24rem;
+	color: #ff6600;
+	margin-left: 0.54rem;
+}
+.box .text{
+   	position: absolute;
+	top: 7.9rem;
+	left: 2rem;
+	border: none;
+	border-bottom: 0.04rem solid #ff6600;
+	width: 2.2rem;
+}
+.koo i{
+	position: absolute;
+	top: 7.9rem;
+	left: 1.5rem;
+	color: #ff944c;
+}
+.box .passwordone{
+	font-size: 0.24rem;
+	color: #ff6600;
+	margin-left: 0.54rem;
+}
+.box .textone{
+   	position: absolute;
+	top:9.5rem;
+	left: 2rem;
+	border: none;
+	border-bottom: 0.04rem solid #ff6600;
+}
+.box .icon{
+	position: absolute;
+	top: 8.7rem;
+	left: 1.5rem;
+	color: #ff944c;
+}
+.box .code{
+	width: 1.6rem;
+	height: 0.46rem;
+	position: absolute;
+	top: 7.8rem;
+	right: 1.6rem;
+	background: #ff6600;
+	color: #fff;
+	font-size: 0.18rem;
+	border-radius: 0.1rem;
+	text-align: center;
+	line-height: 0.46rem;
+}
+.register{
+	width: 3.48rem;
+	height: 0.76rem;
+	border-radius: 0.2rem;
+	background: #ff6600;
+	color: #fff;
+	text-align: center;
+	line-height: 0.76rem;
+	margin: 0 auto;
+	font-size: 0.3rem;
+	margin-top: 1rem;
+}

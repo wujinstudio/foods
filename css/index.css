@@ -1,0 +1,373 @@
+/*
+* @Author: 武锦
+* @Date:   2018-08-08 10:13:25
+* @Last Modified by:   武锦
+* @Last Modified time: 2018-08-09 10:36:40
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style:normal;
+}
+header{
+	width: 7.5rem;
+    height: 1rem;
+    background: #ff6600;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+	z-index: 999;
+}
+header .pos{
+	width: 1.06rem;
+	height: 100%;
+	background: #ff6600;
+    font-size: 0.3rem;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    float: left;
+}
+header input{
+	width: 4.75rem;
+	height: 0.41rem;
+	background-color: #fff;
+	border-radius: 0.3rem;
+	margin-top: 0.3rem;
+	float: left;
+	border: none;
+	font-size: 0.24rem;
+	background-image: url('../img/search.png');
+	background-repeat: no-repeat;
+	background-size: 0.35rem 0.35rem;
+	background-position: 0.05rem 0.05rem;
+	padding-left: 0.45rem;
+}
+input::-webkit-input-placeholder{
+	color: #c1c1c1;
+	margin-left: 0.1rem;
+}
+header .scan{
+	float: left;
+	width: 0.4rem;
+	height: 100%;
+}
+header .scan img{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+	margin-top: 0.3rem;
+}
+.banner{
+	width:7.5rem ;
+	height:4.2rem ;
+	/*background-image: url('../img/banner.png');*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	margin-top: 1rem;
+}
+.banner img{
+	display: block;
+	width:7.5rem ;
+	height:4.2rem ;
+}
+
+nav{
+	width: 100%;
+	height: 3.85rem;
+	/* background-color: pink; */
+	padding: 0 0.24rem;
+}
+nav .main{
+	height: 100%;
+	/* background-color: red; */
+	display: flex;
+    flex-direction: column;
+}
+nav .main ul{
+    display: flex;
+	justify-content: space-around;
+    padding: 0.15rem 0;
+    height: 1.92rem;
+    /* background-color: blue; */
+}
+nav ul li{
+    height: 1.74rem;
+    /* background-color: green; */
+    width: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    /* 决定主轴方向方向 */
+    align-items:  center;
+    /* 决定交叉轴方向垂直方向 */
+    flex-direction: column;
+}
+nav .main li img{
+	width: 1.24rem;
+	height: 1.24rem;
+}
+nav .main li h5{
+	font-size: 0.28rem;
+	color:#585858;
+}
+.business{
+	width: 100%;
+	height: 2rem;
+	padding: 0 0.24rem;
+	/* background-color: #564; */
+	overflow: hidden;
+}
+.business .main{
+	margin-top: 0.5rem;
+	height: 1rem;
+}
+.business .main img{
+	width:7.02rem;
+	height: 1rem;
+}
+.choose{
+	width: 100%;
+	height: 0.6rem;
+	/* background-color: #654; */
+	padding: 0 0.24rem;
+}
+.choose ul{
+    height:0.6rem;
+    display: flex;
+    justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
+.choose ul li{
+	width: 1.5rem;
+	height: 0.5rem;
+	border-radius: 0.3rem;
+	border: 0.04rem solid #ff6600;
+	font-size: 0.28rem;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+}
+.choose ul li p{
+	color: #ff6600;
+	font-weight: bold;
+	font-size: 0.26rem;
+}
+.list{
+	width: 100%;
+	height: 14.46rem;
+	padding: 0 0.24rem;
+	margin-bottom: 0.9rem;
+	/* background-color: #874; */
+}
+.list ul {
+    height: 14.16rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.list ul li{
+	width: 100%;
+	height: 2.5rem;
+    box-shadow: -0.06rem 0.04rem 0.18rem rgba(255, 102, 0, 0.5);
+    /* background-color: red; */
+    margin-top:0.3rem; 
+    display: flex;
+}
+.list ul li .picture{
+    width: 1.26rem;
+    height: 2.5rem;
+    float: left;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list ul li .content{
+    width: 5.46rem;
+    height: 2.5rem;
+    float: left;
+    /* background-color: orange; */
+    margin-left: 0.22rem;
+    font-size: 0.24px;
+    display: flex;
+    flex-direction: column;
+}
+.list ul li .picture a{
+	display: block;
+    height: 1.86rem;
+}
+.list ul li .picture img{
+   width: 100%;
+   height: 1.86rem;
+}
+.list ul li .content .des a{
+	font-size: 0.28rem;
+	color: #474646;
+	display: block;
+}
+.list ul li .content .des h6{
+	font-size: 0.28rem;
+	color: #474646;
+}
+.list ul li .content .des .score{
+	width: 1.44rem;
+	height: 0.22rem;
+}
+.list ul li .content .des .score img{
+	width: 1.44rem;
+	height: 0.22rem;
+}
+.list ul li .content .des .hot{
+	width: 0.4rem;
+	height: 0.44rem;
+}
+.list ul li .content .des .hot img{
+	width: 0.4rem;
+	height: 0.44rem;
+}
+.list ul li .content .des{
+	height: 0.44rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 0.22rem;
+}
+.list ul li .content .point{
+	color:#c7c7c7;
+	display: flex;
+	flex-direction: row;
+}
+.list ul li .content .point p{
+	color: #444444;
+	font-size: 0.22rem;
+}
+.list ul li .content .point .one{
+	color:#c7c7c7;
+	font-size: 0.22rem;
+}
+.list ul li .content .describe{
+	font-size: 0.24rem;
+	color: #414141;
+	width: 3.4rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+
+}
+.list ul li .content .price{
+	font-size: 0.24rem;
+	color: #707070;
+	display: flex;
+	flex-direction: row;
+}
+.list ul li .content .price .qi{
+	width: 1.3rem;
+}
+.list ul li .content .subtracter{
+	font-size: 0.18rem;
+	display: flex;
+	flex-direction: row;
+	color: #4c4a45;
+	margin-top: 0.12rem;
+}
+.list ul li .content .subtracter .minus{
+	width: 0.66rem;
+	height: 0.3rem;
+	border: 2px solid #ff6600;
+	border-radius: 0.3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.list ul li .content .discount{
+	font-size: 0.18rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 0.12rem;
+}
+.list ul li .content .discount .frist{
+	font-size: 0.18rem;
+	display: flex;
+	flex-direction: row;
+	color: #4c4a45;
+}
+.list ul li .content .discount .frist .rebate{
+	width: 0.66rem;
+	height: 0.3rem;
+	border: 2px solid #ff6600;
+	border-radius: 0.3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.list ul li .content .discount .place{
+	width:1.84rem ;
+	height: 0.34rem;
+	display: flex;
+	flex-direction: row;
+	font-size: 0.18rem;
+	color:#ff6600;
+}
+.list ul li .content .discount .place img{
+	width: 0.26rem;
+	height: 0.26rem;
+}
+footer{
+	width: 100%;
+	height: 1rem;
+	padding: 0 0.24rem;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+    box-shadow: -0.1rem -0.04rem 0.1rem rgba(255, 102, 0, 0.5);
+}
+footer .main ul{
+	display: flex;
+	height: 1rem;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fff;
+}
+footer ul li{
+	width: 1rem;
+	height: 1rem;
+	flex-direction: column;
+	display: flex;
+	/* background-color: #854; */
+}
+footer ul li .picture a{
+	display: block;
+}
+footer ul li .picture{
+	width:1rem;
+	height: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer ul li img{
+	height: 0.5rem;
+	margin-top: 0.14rem;
+}
+footer ul li p{
+	font-size: 0.18rem;
+	text-align: center;
+	margin-top: 0.04rem;
+	color: #999999;
+}
+footer ul li a{
+	display: block;
+	color: #999999;
+}

@@ -1,0 +1,298 @@
+/*
+* @Author: 武锦
+* @Date:   2018-08-12 10:37:43
+* @Last Modified by:   武锦
+* @Last Modified time: 2018-08-13 22:24:37
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style:normal;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+header{
+	width: 7.5rem;
+    height: 1rem;
+    background: #ff6600;
+    padding: 0 0.24rem;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+}
+header .top{
+	width: 100%;
+	height: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 0.2rem;
+}
+header .text .title{
+	font-size: 0.36rem;
+	color: white;
+	text-align: center;
+}
+header .text .eng{
+	font-size: 0.24rem;
+	color: #ffa200;
+}
+header .return{
+   width: 1rem;
+}
+header .return img{
+	width: 0.34rem;
+	display: block;
+	height: 0.5rem;
+
+}
+main .container{
+	padding: 0 0.24rem;
+	overflow: scroll;
+	margin-top: 1rem;
+}
+.partone .picture{
+	width: 100%;
+	height: 3.62rem;
+}
+.partone img{
+	width: 100%;
+	height: 3.62rem;
+	display: block;
+}
+.partone .name{
+	font-size: 0.4rem;
+	color: #242424;
+	padding-top: 0.1rem;
+    text-align: left;
+    font-weight: bold;
+}
+.partone .sell{
+	font-size: 0.22rem;
+	color: #a3a3a3;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+	line-height: 0.5rem;
+}
+.sell .good{
+	padding-right: 3rem;
+}
+.sell .cart{
+	width: 1.5rem;
+	height: 0.4rem;
+	background-color: #ff6600;
+	color: white;
+	border-radius: 0.3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.22rem;
+}
+.partone .money{
+	font-size: 0.36rem;
+	color: #ff6f6f;
+}
+.partone .describe{
+	font-size: 0.24rem;
+	color: #585858;
+	overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    padding-top: 0.1rem;
+    box-sizing: border-box;
+}
+.partone .batching{
+	font-size: 0.3rem;
+	color: #333;
+	padding-top: 0.1rem;
+	font-weight: bold;
+}
+.partone .cake{
+	font-size: 0.24rem;
+	color: #4c4c4c;
+	padding-top: 0.1rem;
+	box-sizing: border-box;
+}
+.partone .custom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 0.1rem;
+	box-sizing: border-box;
+}
+.custom span{
+	font-size: 0.22rem;
+	color: #676767;
+	padding-left: 1.9rem;
+	padding-top: 0.1rem;
+	box-sizing: border-box;
+}
+.custom .more{
+	background-color: #ff6600;
+	color: white;
+	border-radius: 0.3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.24rem;
+	width: 1.5rem;
+	height: 0.4rem;
+}
+header .share{
+	width: 0.76rem;
+}
+header .share img{
+	width: 0.56rem;
+	display: block;
+	height: 0.6rem;
+}
+.partone .gu{
+    width: 100%;
+    height: 0.8rem;
+    margin-top: 0.24rem;
+    display: flex;
+    flex-direction: row;
+}
+.gu .pic{
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.gu .pic img{
+	display: block;
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.gu .des{
+	margin-left: 0.24rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.des .ni{
+	font-size: 0.24rem;
+	font-weight: bold;
+}
+.des .ge{
+	font-size: 0.18rem;
+}
+.container .appraise{
+	width: 100%;
+	height: 0.6rem;
+	background-color: #f4f4f4;
+	font-size: 0.2rem;
+	line-height: 0.6rem;
+	margin-top: 0.1rem;
+}
+.container .parttwo{
+	overflow: scroll;
+	padding-bottom: 1rem;
+}
+.parttwo .recommended{
+	font-size: 0.3rem;
+	color: #333;
+	padding-top: 0.1rem;
+	font-weight: bold;
+	margin-bottom: 0.2rem;
+}
+.busniess li{
+	width: 3.38rem;
+	height: 3.8rem;
+	float: left;
+	margin-right: 0.2rem;
+	margin-bottom: 0.2rem;
+	box-shadow: 0rem 0.02rem 0.16rem rgba(255, 102, 0, 0.5);
+/* 	background: #555; */
+}
+.busniess li:nth-child(2n){
+	margin-right: 0;
+}
+.busniess li .picture1{
+	width: 100%;
+	height: 2rem;
+}
+.busniess li .picture1{
+	width: 100%;
+	height: 1.8rem;
+}
+.busniess li img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+li .three{
+	text-align: center;
+	font-size: 0.26rem;
+	color: #292929;
+	padding-top: 0.2rem;
+}
+li .month{
+	font-size: 0.18rem;
+	text-align: center;
+	color: #424242;
+	padding-top: 0.08rem;
+}
+li .mney{
+	font-size: 0.3rem;
+	text-align: center;
+	color: #ff6f6f;
+	padding-top: 0.12rem;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+}
+footer .box{
+	width: 100%;
+	height: 1rem;
+	padding: 0 0.24rem;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+    box-shadow: -0.1rem -0.04rem 0.1rem rgba(255, 102, 0, 0.5);
+}
+footer .box .gray{
+	width: 4.56rem;
+	height: 100%;
+	font-size: 0.18rem;
+}
+footer .box .gray .bus{
+	line-height: 0.5rem;
+	text-align: center;
+}
+footer .box .gray .dis{
+	text-align: center;
+}
+footer .box .take-off{
+	width: 2.44rem;
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.28rem;
+	background: #424242;
+	color: white;
+}
+footer .cart{
+	width: 0.8rem;
+	height: 0.8rem;
+	position: absolute;
+	left: 0.2rem;
+	bottom: 1rem;
+}
+footer .box .cart img{
+   width: 0.8rem;
+   height: 0.8rem;
+}

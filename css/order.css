@@ -1,0 +1,210 @@
+/*
+* @Author: 武锦
+* @Date:   2018-08-16 18:17:34
+* @Last Modified by:   武锦
+* @Last Modified time: 2018-08-16 22:12:28
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style:normal;
+}
+header{
+	width: 7.5rem;
+    height: 1rem;
+    background: #ff6600;
+    padding: 0 0.24rem;
+
+    overflow: hidden;
+
+}
+header .top{
+	width: 100%;
+	height: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	margin-top: 0.2rem;
+}
+header .text{
+	margin-left: 2.5rem;
+}
+header .text .title{
+	font-size: 0.36rem;
+	color: white;
+	text-align: center;
+}
+header .text .eng{
+	font-size: 0.24rem;
+	color: #ffa200;
+}
+header .search{
+	width: 0.48rem;
+	height: 0.48rem;
+	margin-left: 2rem;
+	padding-top: 0.08rem;
+}
+header .search img{
+	width: 0.48rem;
+	display: block;
+	height: 0.48rem;
+}
+main .container{
+    padding: 0 0.24rem;
+}
+.container .bussness{
+	font-size: 0.24rem;
+	color: #ff6600;
+	padding-top: 0.3rem;
+}
+.container p{
+	font-size: 0.3rem;
+	color: #ff6600;
+	font-weight: bold;
+}
+.container .nearby{
+	width: 100%;
+	height: 3.7rem;
+}
+.nearby img{
+	display: block;
+	width: 100%;
+	height: 3.7rem;
+}
+main .history{
+	font-size: 0.24rem;
+	color: #ff6600;
+	padding-top: 0.4rem;
+	margin-left: 0.24rem;
+}
+main .history-e{
+	font-size: 0.3rem;
+	color: #ff6600;
+	font-weight: bold;
+	margin-left: 0.24rem;
+}
+.middle .contain{
+	padding: 0 0.24rem;
+}
+.contain ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.38rem;
+}
+.contain li{
+	width: 100%;
+	height: 1.36rem;
+	box-shadow: -0.02rem 0.04rem 0.18rem rgba(255, 180, 0, 0.5);
+    margin-bottom: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0.1rem;
+}
+.contain li .pic{
+	width: 1.42rem;
+	height: 1.36rem;
+
+}
+.contain li img{
+	display: block;
+	width: 1.42rem;
+	height: 1.36rem;
+	border-radius: 0.1rem;
+}
+.contain li .text{
+	display: block;
+	flex-direction: column;
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	margin-right: 0.8rem;
+}
+.contain li .name{
+	font-size: 0.28rem;
+	color: #333;
+}
+.contain li .month{
+	font-size: 0.18rem;
+	color: #ff6600;
+	margin-top: 0.1rem;
+}
+.contain li .talk{
+	padding: 0.14rem 0;
+	margin-right: 0.6rem;
+}
+.contain li .box{
+    width: 1.54rem;
+    height: 0.48rem;
+    color: #ff6600;
+    text-align: center;
+    line-height: 0.48rem;
+    box-shadow: -0.02rem 0.04rem 0.18rem rgba(255, 180, 0, 0.5);
+    background: #fff;
+    font-size: 0.18rem;
+    border-radius: 0.3rem;
+}
+.contain li .artcile{
+    width: 1.54rem;
+    height: 0.48rem;
+    color: #ff6600;
+    text-align: center;
+    line-height: 0.48rem;
+    box-shadow: -0.02rem 0.04rem 0.18rem rgba(255, 180, 0, 0.5);
+    background: #fff;
+    font-size: 0.18rem;
+    border-radius: 0.3rem;
+    margin-top: 0.1rem;
+}
+footer{
+	width: 100%;
+	height: 1rem;
+	padding: 0 0.24rem;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+    box-shadow: -0.1rem -0.04rem 0.1rem rgba(255, 102, 0, 0.5);
+}
+footer .main ul{
+	display: flex;
+	height: 1rem;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fff;
+}
+footer ul li{
+	width: 1rem;
+	height: 1rem;
+	flex-direction: column;
+	display: flex;
+	/* background-color: #854; */
+}
+footer ul li .picture a{
+	display: block;
+}
+footer ul li .picture{
+	width:1rem;
+	height: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer ul li img{
+	height: 0.5rem;
+	margin-top: 0.14rem;
+}
+footer ul li p{
+	font-size: 0.18rem;
+	text-align: center;
+	margin-top: 0.04rem;
+	color: #999999;
+}
+footer ul li a{
+	display: block;
+	color: #999999;
+}
